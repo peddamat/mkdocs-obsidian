@@ -133,7 +133,7 @@ plugins:
       features:
         tags:
           index_page: tags.md
-          insert: top
+          insert: bottom
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
       categories:
