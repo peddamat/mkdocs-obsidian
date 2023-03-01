@@ -10,7 +10,6 @@ from mkdocs.structure.pages import Page
 from mkdocs.structure.files import Files
 from mkdocs.config.defaults import MkDocsConfig
 
-
 log = logging.getLogger('mkdocs')
 
 def is_page_published(meta: typing.Dict):
@@ -21,8 +20,6 @@ def is_page_published(meta: typing.Dict):
         return False
 
 def on_files(files: Files, *, config: MkDocsConfig) -> Optional[Files]:
-
-    # Getting the root location of markdown source files
     base_docs_url = config["docs_dir"]
 
     for file in files.documentation_pages():
@@ -31,8 +28,9 @@ def on_files(files: Files, *, config: MkDocsConfig) -> Optional[Files]:
             try:
                 metadata = frontmatter.load(raw_file).metadata
 
-                if not is_page_published(metadata):
-                    log.info(f"IncludePublishedFilesPlugin skipping {file.src_uri}")
+                if is_page_published(metadata):
+                    log.info(f"Adding published document {file.src_uri}")
+                else:
                     files.remove(file)
             except:
                 log.error(f"IncludePublishedFilesPlugin found malformed frontmatter in {file.src_uri} (Skipping)!")
