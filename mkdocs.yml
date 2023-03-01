@@ -289,6 +289,7 @@ markdown_extensions:
 extra_css:
 <<<<<<< temp
 <<<<<<< temp
+<<<<<<< temp
 <<<<<<< temp2
   - stylesheets/extra.css
   - stylesheets/hide_nav.css
@@ -332,9 +333,17 @@ hooks:
   - .stylesheets/extra.css
   - .stylesheets/hide_nav.css
 >>>>>>> Updated stylesheets folder.
+||||||| ancestor
+  - .stylesheets/extra.css
+  - .stylesheets/hide_nav.css
+=======
+  - stylesheets/extra.css
+  - stylesheets/hide_nav.css
+>>>>>>> Update mkdocs.yml
 
 hooks:
   - hooks/flatten_filenames.py
+<<<<<<< temp
 <<<<<<< temp
   # - hooks/only_include_published.py
 >>>>>>> Copied over changes from testing environment.
@@ -343,3 +352,8 @@ hooks:
 =======
   - hooks/only_include_published.py
 >>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+  - hooks/only_include_published.py
+=======
+  - hooks/only_include_published.py
+>>>>>>> Update mkdocs.yml
