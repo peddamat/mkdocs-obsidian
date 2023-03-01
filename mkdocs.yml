@@ -171,19 +171,31 @@ plugins:
       template: overrides/custom-blog.html
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
-      categories:
-        - name: reviews
-          dirs:
-            - reviews
+      # categories:
+      #   - name: reviews
+      #     dirs:
+      #       - reviews
 
       # GLOBAL CONFIG: configs apply to all categories
       time_format: '%d/%m/%y %H:%M:%S'
       meta_time_format: '%Y-%m-%d %H:%M:%S'
+<<<<<<< temp
       features:
         tags:
           index_page: tags.md
           insert: top
 >>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+      features:
+        tags:
+          index_page: tags.md
+          insert: top
+=======
+      # features:
+      #   tags:
+      #     index_page: tags.md
+      #     insert: top
+>>>>>>> Cosmetic changes.
 
 extra:
   social:
