@@ -12,16 +12,53 @@ lunr==0.6.2
 Markdown==3.3.7
 MarkupSafe==2.1.1
 mergedeep==1.3.4
+<<<<<<< temp
+<<<<<<< temp2
+mkdocs==1.4.2
+mkdocs-material==9.0.15
+mkdocs-material-extensions>=1.0.3
+mkdocs-minify-plugin>=0.5.0
+||||||| ancestor
 mkdocs==1.3.1
 mkdocs-material==8.4.0
 mkdocs-material-extensions==1.0.3
 mkdocs-minify-plugin==0.5.0
 mkdocs-roamlinks-plugin==0.2.0
+=======
+mkdocs==1.4.2
+mkdocs-material==9.0.15
+mkdocs-material-extensions>=1.0.3
+mkdocs-minify-plugin>=0.5.0
+<<<<<<< temp2
+mkdocs-roamlinks-plugin>=0.2.0
+>>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+mkdocs-roamlinks-plugin>=0.2.0
+=======
+>>>>>>> Updating repository from testing environment.
+||||||| ancestor
+mkdocs==1.3.1
+mkdocs-material==8.4.0
+mkdocs-material-extensions==1.0.3
+mkdocs-minify-plugin==0.5.0
+mkdocs-roamlinks-plugin==0.2.0
+=======
+mkdocs==1.4.2
+mkdocs-material==9.0.15
+mkdocs-material-extensions>=1.0.3
+mkdocs-minify-plugin>=0.5.0
+<<<<<<< temp
+mkdocs-roamlinks-plugin>=0.2.0
+>>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+mkdocs-roamlinks-plugin>=0.2.0
+=======
+>>>>>>> Updating repository from testing environment.
 nltk==3.7
 packaging==21.3
-Pygments==2.13.0
+Pygments>=2.13.0
 pygtrie==2.5.0
-pymdown-extensions==9.5
+pymdown-extensions>=9.5
 pyparsing==3.0.9
 python-dateutil==2.8.2
 PyYAML==6.0
@@ -32,3 +69,37 @@ tornado==6.2
 tqdm==4.64.0
 watchdog==2.1.9
 zipp==3.8.1
+<<<<<<< temp
+<<<<<<< temp2
+wheel==0.38.4
+python-frontmatter==1.0.0
+mkdocs-ezlinks-plugin>=0.1.14
+mkdocs-blogging-plugin>=2.2.2
+#mkdocs-roamlinks-plugin>=0.2.0
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+||||||| ancestor
+=======
+wheel==0.38.4
+python-frontmatter==1.0.0
+mkdocs-ezlinks-plugin>=0.1.14
+mkdocs-blogging-plugin>=2.2.2
+<<<<<<< temp2
+>>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+=======
+#mkdocs-roamlinks-plugin>=0.2.0
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+>>>>>>> Updating repository from testing environment.
+||||||| ancestor
+=======
+wheel==0.38.4
+python-frontmatter==1.0.0
+mkdocs-ezlinks-plugin>=0.1.14
+mkdocs-blogging-plugin>=2.2.2
+<<<<<<< temp
+>>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+=======
+#mkdocs-roamlinks-plugin>=0.2.0
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+>>>>>>> Updating repository from testing environment.

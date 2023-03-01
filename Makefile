@@ -15,7 +15,7 @@ fresh: clean serve
 
 .PHONY: run
 run:
-	docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material:7.1.5
+	docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
 
 .PHONY: push
 push:

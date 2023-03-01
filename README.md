@@ -1,6 +1,6 @@
-# notes
+# Notes
 
-Collection of my byte sized notes on programming and other random topics. 
+This is my personal fork of the excellent [mr-karan/notes](https://github.com/mr-karan/notes) repo.
 
 ## Local Setup
 
@@ -15,4 +15,4 @@ make run
 
 ## Workflow
 
-I write these notes in [Obsidian](https://obsidian.md/) and use [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) with a bunch of extensions and plugins to publish them at [notes.mrkaran.dev](https://notes.mrkaran.dev).
+Notes are written in [Obsidian](https://obsidian.md/) and [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) with a bunch of extensions and plugins to publish them at [samrambles.com](https://samrambles.com).

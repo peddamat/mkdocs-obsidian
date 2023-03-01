@@ -1,1 +1,0 @@
-I like to refer to https://ec2instances.github.io/ to quickly search for relevant EC2 Instances, their pricing and alternate instance type options - all in a single list. Must use!
