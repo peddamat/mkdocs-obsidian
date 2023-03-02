@@ -102,4 +102,9 @@ mkdocs-blogging-plugin>=2.2.2
 =======
 #mkdocs-roamlinks-plugin>=0.2.0
 git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+<<<<<<< temp
 >>>>>>> Updating repository from testing environment.
+||||||| ancestor
+=======
+mkdocs-awesome-pages-plugin>=2.8.0
+>>>>>>> Fixed homepage.

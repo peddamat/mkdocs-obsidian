@@ -9,10 +9,6 @@ edit_uri: edit/main/docs/
 docs_dir: ./notes
 site_dir: ./site
 
-nav:
-  - Home: 'index.md'
-  - Tags: 'tags.md'
-
 theme:
   name: material
   custom_dir: overrides
@@ -39,9 +35,11 @@ theme:
   include_search_page: true
   search_index_only: true
   features:
+    - header.autohide         # Hide header when scrolling down
     - search.share
     - search.highlight
     - search.suggest
+<<<<<<< temp
 <<<<<<< temp
 <<<<<<< temp
 <<<<<<< temp
@@ -51,13 +49,20 @@ theme:
 =======
     - header.autohide
 >>>>>>> Cleaned up homepage.
+||||||| ancestor
+    - header.autohide
+=======
+>>>>>>> Fixed homepage.
     - content.code.copy
     - content.code.select
     - content.code.annotate
-    - navigation.tracking
-    - navigation.top
-    - navigation.sections
+    - navigation.tracking     # Reflect current #section in URL
+    - navigation.top          # Back-to-top button
+    - navigation.sections     # Expands sections in left-sidebar
+    - navigation.tabs         # Sections in header
+    - toc.integrate           # Moves toc from right sidebar to left
     # - navigation.instant
+<<<<<<< temp
     - toc.follow
     # - toc.integrate
 ||||||| ancestor
@@ -94,6 +99,13 @@ theme:
     - toc.follow
     # - toc.integrate
 >>>>>>> Copied over changes from testing environment.
+||||||| ancestor
+    - toc.follow
+    # - toc.integrate
+=======
+    # - toc.follow            # Doesn't seem to work
+    # - navigation.path         # Breadcrumb above page title
+>>>>>>> Fixed homepage.
   font:
     text: Noto Sans
     code: IMB Plex Mono
@@ -101,6 +113,7 @@ theme:
 plugins:
   # Resolves Obsidian [[wikilinks]]
   - roamlinks
+  - awesome-pages
   - minify:
       minify_html: true
 <<<<<<< temp
@@ -395,8 +408,14 @@ hooks:
   - .stylesheets/hide_nav.css
 =======
   - stylesheets/extra.css
+<<<<<<< temp
   - stylesheets/hide_nav.css
 >>>>>>> Update mkdocs.yml
+||||||| ancestor
+  - stylesheets/hide_nav.css
+=======
+  # - stylesheets/hide_nav.css
+>>>>>>> Fixed homepage.
 
 hooks:
   - hooks/flatten_filenames.py
