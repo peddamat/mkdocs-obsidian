@@ -1,0 +1,21 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout mkdocs-obsidian repo
+        uses: actions/checkout@v2
+
+      - name: Checkout notes repo into ./notes
+        uses: actions/checkout@v2
+        with:
+          token:  ${{ secrets.GITHUB_TOKEN }}
+          repository: peddamat/mkdocs-obsidian        
+          path: notes
+          

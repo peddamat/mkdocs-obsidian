@@ -1,9 +1,5 @@
-import os
-import logging
-import typing
+import os, logging, typing, frontmatter
 from typing import Optional
-
-import frontmatter
 
 import mkdocs.plugins
 from mkdocs.structure.pages import Page
@@ -12,12 +8,9 @@ from mkdocs.config.defaults import MkDocsConfig
 
 log = logging.getLogger('mkdocs')
 
-def is_page_published(meta: typing.Dict):
+def is_page_published(meta: typing.Dict) -> bool:
     if 'publish' in meta:
-        if meta['publish'] == True:
-            return True
-
-        return False
+        return meta['publish'] == True
 
 def on_files(files: Files, *, config: MkDocsConfig) -> Optional[Files]:
     base_docs_url = config["docs_dir"]
@@ -27,13 +20,12 @@ def on_files(files: Files, *, config: MkDocsConfig) -> Optional[Files]:
         with open(abs_path, 'r') as raw_file:
             try:
                 metadata = frontmatter.load(raw_file).metadata
-
                 if is_page_published(metadata):
                     log.info(f"Adding published document {file.src_uri}")
                 else:
                     files.remove(file)
             except:
-                log.error(f"IncludePublishedFilesPlugin found malformed frontmatter in {file.src_uri} (Skipping)!")
+                log.error(f"IncludePublishedFilesPlugin found malformed frontmatter in {file.src_uri} (skipping)!")
 
     return files
 

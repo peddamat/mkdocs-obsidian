@@ -111,9 +111,10 @@ theme:
     code: IMB Plex Mono
 
 plugins:
-  # Resolves Obsidian [[wikilinks]]
-  - roamlinks
+
+  - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
+  - git-revision-date         # Adds 'Last updated:' to pages
   - minify:
       minify_html: true
 <<<<<<< temp
@@ -422,6 +423,7 @@ hooks:
 <<<<<<< temp
 <<<<<<< temp
 <<<<<<< temp
+<<<<<<< temp
   # - hooks/only_include_published.py
 >>>>>>> Copied over changes from testing environment.
 ||||||| ancestor
@@ -439,3 +441,8 @@ hooks:
 =======
   - hooks/only_include_published.py
 >>>>>>> Cleaned up homepage.
+||||||| ancestor
+  - hooks/only_include_published.py
+=======
+  - hooks/only_include_published.py
+>>>>>>> Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Switching to pipenv.

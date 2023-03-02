@@ -20,6 +20,7 @@ import mkdocs.plugins
 
 log = logging.getLogger('mkdocs')
 
+# Rewrite using `python-slugify`
 def on_files(files, config):
     for f in files:
         if f.is_documentation_page() or f.is_media_file():

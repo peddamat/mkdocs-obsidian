@@ -102,6 +102,7 @@ mkdocs-blogging-plugin>=2.2.2
 =======
 #mkdocs-roamlinks-plugin>=0.2.0
 <<<<<<< temp
+<<<<<<< temp
 git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
 <<<<<<< temp
 >>>>>>> Updating repository from testing environment.
@@ -114,5 +115,15 @@ git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
 mkdocs-awesome-pages-plugin>=2.8.0
 =======
 git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master#egg=RoamLinksPlugin
+||||||| ancestor
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master#egg=RoamLinksPlugin
+=======
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+>>>>>>> Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Switching to pipenv.
 mkdocs-awesome-pages-plugin>=2.8.0
+<<<<<<< temp
 >>>>>>> Switched from venv to pipenv.
+||||||| ancestor
+=======
+python-slugify>=5.0.0
+>>>>>>> Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Switching to pipenv.

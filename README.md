@@ -7,10 +7,10 @@ This is my personal fork of the excellent [mr-karan/notes](https://github.com/mr
 To preview the site locally:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-make run
+pipenv install
+pipenv shell
+git clone git@github.com:peddamat/notes.git
+make serve
 ```
 
 ## Workflow
