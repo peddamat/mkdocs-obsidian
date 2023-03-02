@@ -101,6 +101,7 @@ mkdocs-blogging-plugin>=2.2.2
 ||||||| ancestor
 =======
 #mkdocs-roamlinks-plugin>=0.2.0
+<<<<<<< temp
 git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
 <<<<<<< temp
 >>>>>>> Updating repository from testing environment.
@@ -108,3 +109,10 @@ git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
 =======
 mkdocs-awesome-pages-plugin>=2.8.0
 >>>>>>> Fixed homepage.
+||||||| ancestor
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master
+mkdocs-awesome-pages-plugin>=2.8.0
+=======
+git+https://github.com/peddamat/mkdocs-roamlinks-plugin@master#egg=RoamLinksPlugin
+mkdocs-awesome-pages-plugin>=2.8.0
+>>>>>>> Switched from venv to pipenv.
