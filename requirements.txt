@@ -126,4 +126,9 @@ mkdocs-awesome-pages-plugin>=2.8.0
 ||||||| ancestor
 =======
 python-slugify>=5.0.0
+<<<<<<< temp
 >>>>>>> Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Switching to pipenv.
+||||||| ancestor
+=======
+mkdocs-git-revision-date-plugin>=0.3.2
+>>>>>>> added git-revision-date-plugin.
