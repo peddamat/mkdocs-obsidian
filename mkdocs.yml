@@ -220,6 +220,7 @@ plugins:
 
       # GLOBAL CONFIG: configs apply to all categories
 <<<<<<< temp
+<<<<<<< temp
       time_format: '%d/%m/%y %H:%M:%S'
       meta_time_format: '%Y-%m-%d %H:%M:%S'
 <<<<<<< temp
@@ -250,6 +251,13 @@ plugins:
       time_format: '%m/%d/%y %H:%M:%S'
       meta_time_format: '%m/%d/%y %H:%M:%S'
 >>>>>>> Cleaned up homepage.
+||||||| ancestor
+      time_format: '%m/%d/%y %H:%M:%S'
+      meta_time_format: '%m/%d/%y %H:%M:%S'
+=======
+      time_format: '%b-%d-%Y'
+      meta_time_format: '%m-%d-%Y'
+>>>>>>> Updated date format.
 
 extra:
   social:
