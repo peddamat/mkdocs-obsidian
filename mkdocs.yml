@@ -60,7 +60,7 @@ theme:
     - navigation.top          # Back-to-top button
     - navigation.sections     # Expands sections in left-sidebar
     - navigation.tabs         # Sections in header
-    - toc.integrate           # Moves toc from right sidebar to left
+    # - toc.integrate           # Moves toc from right sidebar to left
     # - navigation.instant
 <<<<<<< temp
     - toc.follow
