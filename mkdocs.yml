@@ -56,6 +56,7 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tabs.link
     - navigation.tracking     # Reflect current #section in URL
     - navigation.top          # Back-to-top button
     - navigation.sections     # Expands sections in left-sidebar
@@ -300,6 +301,8 @@ markdown_extensions:
 =======
   # Source code boxes
   - pymdownx.superfences
+  - pymdownx.tabbed:          # Tabs
+      alternate_style: true
   # Syntax highlighting
   - pymdownx.inlinehilite
 >>>>>>> Cleaned up homepage.
