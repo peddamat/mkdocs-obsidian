@@ -316,6 +316,7 @@ markdown_extensions:
   - attr_list
   - def_list
   - footnotes
+  - sane_lists
 
   - pymdownx.critic
   - pymdownx.caret
