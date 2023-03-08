@@ -30,7 +30,7 @@ jobs:
         run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
       - run: pipenv install
 
-      - run: mkdocs build
+      - run: pipenv run mkdocs build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
