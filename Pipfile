@@ -41,6 +41,7 @@ mkdocs-ezlinks-plugin = ">=0.1.14"
 mkdocs-blogging-plugin = ">=2.2.2"
 mkdocs-awesome-pages-plugin = ">=2.8.0"
 mkdocs-git-revision-date-plugin = "*"
+mkdocs-video = "*"
 
 [dev-packages]
 

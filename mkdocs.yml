@@ -116,6 +116,10 @@ plugins:
   - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
   - git-revision-date         # Adds 'Last updated:' to pages
+  - mkdocs-video:             # Embedded video support
+      css_style:
+        width: "100%"
+        height: "40vw"
   - minify:
       minify_html: true
 <<<<<<< temp
