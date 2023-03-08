@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "03fadd05743e9b873558856ce7f9506fa133a7e13d2fd9a13f5bc0bcbbbb5809"
+            "sha256": "5352e4ce8093f19a02e6c05fec2542ec2ef773a167fc1f5505ca87e8cb4bbd86"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -354,6 +354,10 @@
             "index": "pypi",
             "version": "==0.6.2"
         },
+        "mkdocs-roamlinks-plugin": {
+            "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin",
+            "ref": "master"
+        },
         "mkdocs-video": {
             "hashes": [
                 "sha256:997a636cfba06b0babeea0163c9b9c9aeb594b2524960108445968847de7177f",
@@ -580,10 +584,6 @@
                 "sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf"
             ],
             "version": "==2.28.2"
-        },
-        "roamlinksplugin": {
-            "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin",
-            "ref": "master"
         },
         "six": {
             "hashes": [

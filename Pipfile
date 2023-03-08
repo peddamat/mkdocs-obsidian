@@ -48,6 +48,6 @@ mkdocs-video = "*"
 [requires]
 python_version = "3.8"
 
-[packages.RoamLinksPlugin]
+[packages.mkdocs-roamlinks-plugin]
 git = "https://github.com/peddamat/mkdocs-roamlinks-plugin"
 ref = "master"
