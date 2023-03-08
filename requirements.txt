@@ -131,4 +131,9 @@ python-slugify>=5.0.0
 ||||||| ancestor
 =======
 mkdocs-git-revision-date-plugin>=0.3.2
+<<<<<<< temp
 >>>>>>> added git-revision-date-plugin.
+||||||| ancestor
+=======
+mkdocs-video>=1.4.0
+>>>>>>> Forgot to update requirements.txt
