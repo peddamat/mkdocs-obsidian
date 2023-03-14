@@ -313,6 +313,7 @@ markdown_extensions:
       permalink: true
 <<<<<<< temp
 <<<<<<< temp
+<<<<<<< temp
 <<<<<<< temp2
   # Added below
   - pymdownx.highlight:
@@ -339,6 +340,11 @@ markdown_extensions:
 ||||||| ancestor
   # Added below
 =======
+||||||| ancestor
+=======
+  # Collapsible admonitions
+  - pymdownx.details
+>>>>>>> Enabled collapsible admonitions plugin.
   # Source code boxes
   - pymdownx.superfences
   - pymdownx.tabbed:          # Tabs
