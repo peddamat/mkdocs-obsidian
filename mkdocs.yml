@@ -242,6 +242,8 @@ plugins:
           dirs:
             - Dotfiles
         - name: lab_notes
+          sort:
+            from: old
           dirs:
             - Lab Notes
 >>>>>>> Enabled section indices.
