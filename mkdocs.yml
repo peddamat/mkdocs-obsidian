@@ -61,6 +61,7 @@ theme:
     - navigation.top          # Back-to-top button
     - navigation.sections     # Expands sections in left-sidebar
     - navigation.tabs         # Sections in header
+    - navigation.indexes      # Index.htmls for sections
     # - toc.integrate           # Moves toc from right sidebar to left
     # - navigation.instant
 <<<<<<< temp
@@ -111,8 +112,8 @@ theme:
     text: Noto Sans
     code: IMB Plex Mono
 
-plugins:
 
+plugins:
   - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
   - git-revision-date         # Adds 'Last updated:' to pages
@@ -156,6 +157,7 @@ plugins:
           insert: bottom
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
+<<<<<<< temp
       categories:
         - name: reviews
           dirs:
@@ -223,6 +225,23 @@ plugins:
       #   - name: reviews
       #     dirs:
       #       - reviews
+||||||| ancestor
+      # categories:
+      #   - name: reviews
+      #     dirs:
+      #       - reviews
+=======
+      categories:
+        - name: coding
+          dirs:
+            - Coding
+        - name: dotfiles
+          dirs:
+            - Dotfiles
+        - name: lab_notes
+          dirs:
+            - Lab Notes
+>>>>>>> Enabled section indices.
 
       # GLOBAL CONFIG: configs apply to all categories
 <<<<<<< temp
