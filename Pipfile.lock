@@ -372,7 +372,7 @@
         "mkdocs-roamlinks-plugin": {
             "editable": true,
             "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin.git",
-            "ref": "2be37201616e692623577056efc9c837712d56b5"
+            "ref": "ff4353524288c7a8c5f26d0397d9e540096ce537"
         },
         "mkdocs-video": {
             "hashes": [
