@@ -1,24 +1,30 @@
 {# Import the original template, required. #}
-{% extends "blog-card-theme.html" %}
+{% extends "blog.html" %}
 
-{# A macro to render a blog entry, required. #}
-{% macro render_blog(title, description, time, url, page) -%}
-<a href="{{ url }}">
-    <div class="custom-blog-override-post">
-        <h3 class="blog-post-title">{{ title }}</h3>
-        <div class="blog-post-extra">
-            <b>{{ page.meta["author"] + " · " if "author" in page.meta else "" }}</b>
-            <span>{{ time }}</span>
-        </div>
-        {% if show_tags and "tags" in page.meta %}
-            {% call render_tags(page.meta["tags"], index_url) %}
-            {% endcall %}
-        {% endif %}
-        <p class="blog-post-description">{{ description }}</p>
-    </div>
-</a>
+
+{# Render blogs. If a marco is provided, then use the marco to render. #}
+{% if render_blog is not defined %}
+{% macro render_blog(title, description, time, url, pg) -%}
+<div class="blog-post">
+
+    <h3 class="blog-post-title">
+        <div class="blog-post-extra"> {{ time }} </div>
+        <a class="link" href="{{ url }}">{{ title }}</a>
+    </h3>
+    <p class="blog-post-description">
+        {{ description }}
+    </p>
+    {% if show_tags and "tags" in pg.meta %}
+        {% call render_tags(pg.meta["tags"], index_url) %}
+        {% endcall %}
+    {% endif %}
+
+    <hr />
+</div>
 {{ caller() }}
 {%- endmacro %}
+{% endif %}
+
 
 {# Custom css, optional. #}
 {% block style %}

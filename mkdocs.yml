@@ -236,12 +236,15 @@ plugins:
 =======
       categories:
         - name: coding
+          template: overrides/custom-blog.html
           dirs:
             - Coding
         - name: dotfiles
+          template: overrides/custom-blog.html
           dirs:
             - Dotfiles
         - name: lab_notes
+          template: overrides/custom-blog.html
           sort:
             from: old
           dirs:
@@ -249,6 +252,7 @@ plugins:
 >>>>>>> Enabled section indices.
 
       # GLOBAL CONFIG: configs apply to all categories
+<<<<<<< temp
 <<<<<<< temp
 <<<<<<< temp
       time_format: '%d/%m/%y %H:%M:%S'
@@ -286,6 +290,11 @@ plugins:
       meta_time_format: '%m/%d/%y %H:%M:%S'
 =======
       time_format: '%b-%d-%Y'
+||||||| ancestor
+      time_format: '%b-%d-%Y'
+=======
+      time_format: '%b %-d, %Y'
+>>>>>>> Blog layout tweaks.
       meta_time_format: '%m-%d-%Y'
 >>>>>>> Updated date format.
 
