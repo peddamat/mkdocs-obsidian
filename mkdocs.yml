@@ -243,6 +243,10 @@ plugins:
           template: overrides/custom-blog.html
           dirs:
             - Dotfiles
+        - name: fyi
+          template: overrides/custom-blog.html
+          dirs:
+            - FYI
         - name: lab_notes
           template: overrides/custom-blog.html
           sort:
