@@ -270,6 +270,8 @@ extra:
       link: https://github.com/peddamat
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/peddamat
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/speddamat
 
 markdown_extensions:
   # Table of contents
