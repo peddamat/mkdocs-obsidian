@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5352e4ce8093f19a02e6c05fec2542ec2ef773a167fc1f5505ca87e8cb4bbd86"
+            "sha256": "b4229d42a29bd24f33579096b422b432a6a7c1f60391763299f83c0c1143fcfc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,13 @@
                 "sha256:cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455"
             ],
             "version": "==2.12.1"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:0e79446b10b3ecb499c1556f7e228a53e64a2bfcebd455f370d8927cb5b59e39",
+                "sha256:bc4bdda6717de5a2987436fb8d72f45dc90dd856bdfd512a1314ce90349a0106"
+            ],
+            "version": "==4.11.2"
         },
         "bracex": {
             "hashes": [
@@ -330,6 +337,14 @@
             "index": "pypi",
             "version": "==0.3.2"
         },
+        "mkdocs-glightbox": {
+            "hashes": [
+                "sha256:1974f505e3272b617b5e7552fd09d8d918d267631ed991772b4bd103dc74bea2",
+                "sha256:ac85e2d4d422cc4a670fa276840f0aa3064a1ec4ad25ccb6d6e82d11bb11e513"
+            ],
+            "index": "pypi",
+            "version": "==0.3.1"
+        },
         "mkdocs-material": {
             "hashes": [
                 "sha256:734bcf6af9759888385ee15952c2e8a475d8568ded20965da321f0d8117dfe8f",
@@ -600,6 +615,13 @@
             ],
             "version": "==5.0.0"
         },
+        "soupsieve": {
+            "hashes": [
+                "sha256:49e5368c2cda80ee7e84da9dbe3e110b70a4575f196efb74e51b94549d921955",
+                "sha256:e28dba9ca6c7c00173e34e4ba57448f0688bb681b7c5e8bf4971daafc093d69a"
+            ],
+            "version": "==2.4"
+        },
         "tornado": {
             "hashes": [
                 "sha256:1d54d13ab8414ed44de07efecb97d4ef7c39f7438cf5e976ccd356bebb1b5fca",
@@ -628,10 +650,10 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72",
-                "sha256:75edcdc2f7d85b137124a6c3c9fc3933cdeaa12ecb9a6a959f22797a0feca7e1"
+                "sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305",
+                "sha256:aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
             ],
-            "version": "==1.26.14"
+            "version": "==1.26.15"
         },
         "watchdog": {
             "hashes": [

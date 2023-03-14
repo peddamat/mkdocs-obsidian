@@ -116,6 +116,7 @@ plugins:
   - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
   - git-revision-date         # Adds 'Last updated:' to pages
+  - glightbox                 # Add glightbox image zoom plugin
   - mkdocs-video:             # Embedded video support
       css_style:
         width: "100%"
@@ -319,7 +320,8 @@ markdown_extensions:
 
   - meta
   - admonition
-  - attr_list
+  - attr_list                 # Allows adding {attributes} to images
+  - md_in_html                # Allows adding {attributes} to images
   - def_list
   - footnotes
   - sane_lists
