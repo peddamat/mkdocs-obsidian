@@ -144,15 +144,17 @@ plugins:
       #     case: lower
 
   - search:
-      prebuild_index: python  # Adds 100Kb to site
-      indexing: titles
+      # prebuild_index: python  # Adds 100Kb to site
+      # indexing: titles
       separator: '[\s\-\.]+'
       lang:
         - en
 >>>>>>> Cleaned up homepage.
   - blogging:
       dirs: # The directories to be included
-        - .
+        - Guides
+        - Notes
+        - Projects
       template: overrides/custom-blog.html
       features:
         tags:
@@ -235,25 +237,27 @@ plugins:
       #       - reviews
 =======
       categories:
-        - name: coding
+        - name: guides
           template: overrides/custom-blog.html
           dirs:
-            - Coding
-        - name: dotfiles
+            - Guides
+        - name: notes
           template: overrides/custom-blog.html
           dirs:
-            - Dotfiles
-        - name: fyi
-          template: overrides/custom-blog.html
-          dirs:
-            - FYI
-        - name: lab_notes
+            - Notes
+        - name: projects
           template: overrides/custom-blog.html
           sort:
             from: old
           dirs:
+<<<<<<< temp
             - Lab Notes
 >>>>>>> Enabled section indices.
+||||||| ancestor
+            - Lab Notes
+=======
+            - Projects
+>>>>>>> Site reorg.
 
       # GLOBAL CONFIG: configs apply to all categories
 <<<<<<< temp
