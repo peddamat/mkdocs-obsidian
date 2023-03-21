@@ -372,7 +372,19 @@
         "mkdocs-roamlinks-plugin": {
             "editable": true,
             "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin.git",
-            "ref": "ff4353524288c7a8c5f26d0397d9e540096ce537"
+<<<<<<< temp
+<<<<<<< temp
+            "ref": "459ad1bbd09758fa15c09394a6ade9f0b2f99079"
+||||||| ancestor
+            "ref": "fa9418e18b9eb4d08a234970dc24cf2537d8d912"
+=======
+            "ref": "8ab968a16deb1f69c0f44400df59d3e31ca44c5d"
+>>>>>>> Update Pipfile.lock
+||||||| ancestor
+            "ref": "8ab968a16deb1f69c0f44400df59d3e31ca44c5d"
+=======
+            "ref": "459ad1bbd09758fa15c09394a6ade9f0b2f99079"
+>>>>>>> Update Pipfile.lock
         },
         "mkdocs-video": {
             "hashes": [
