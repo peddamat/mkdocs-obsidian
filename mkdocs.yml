@@ -364,6 +364,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  # MathJax support
+  - pymdownx.arithmatex:
+      generic: true
 
   - meta
   - admonition
@@ -492,6 +495,12 @@ hooks:
   - assets/stylesheets/extra.css
   # - assets/stylesheets/hide_nav.css
 >>>>>>> Cleaned up repo.
+
+extra_javascript:
+  # Required for MathJax support
+  - assests/scripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 hooks:
   - hooks/flatten_filenames.py
