@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e11645c1b0bc049c1d6051a12f6361dd750dc9727de2a78da5b75f026cdf924b"
+            "sha256": "e3a74243cc0b64283761d07b2b1005af988a76d6b0ac5db221be2f24710a84c0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -421,11 +421,8 @@
             "version": "==2.2.2"
         },
         "mkdocs-git-revision-date-plugin": {
-            "hashes": [
-                "sha256:2e67956cb01823dd2418e2833f3623dee8604cdf223bddd005fe36226a56f6ef"
-            ],
-            "index": "pypi",
-            "version": "==0.3.2"
+            "git": "https://github.com/peddamat/mkdocs-git-revision-date-plugin",
+            "ref": "c9fdab13bee14196482b6d690d87cab2599cf939"
         },
         "mkdocs-glightbox": {
             "hashes": [
@@ -460,36 +457,8 @@
             "version": "==0.6.4"
         },
         "mkdocs-roamlinks-plugin": {
-<<<<<<< temp
-            "editable": true,
-            "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin.git",
-<<<<<<< temp
-<<<<<<< temp
-            "ref": "459ad1bbd09758fa15c09394a6ade9f0b2f99079"
-||||||| ancestor
-            "ref": "fa9418e18b9eb4d08a234970dc24cf2537d8d912"
-=======
-            "ref": "8ab968a16deb1f69c0f44400df59d3e31ca44c5d"
->>>>>>> Update Pipfile.lock
-||||||| ancestor
-            "ref": "8ab968a16deb1f69c0f44400df59d3e31ca44c5d"
-=======
-            "ref": "459ad1bbd09758fa15c09394a6ade9f0b2f99079"
->>>>>>> Update Pipfile.lock
-||||||| ancestor
-            "editable": true,
-            "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin.git",
-            "ref": "ff4353524288c7a8c5f26d0397d9e540096ce537"
-=======
             "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin",
-<<<<<<< temp
-            "ref": "master"
->>>>>>> Added MathJax support.
-||||||| ancestor
-            "ref": "master"
-=======
             "ref": "74aea824440d5a65a0d07400aa751f60dea77d2a"
->>>>>>> Updated to latest mkdocs-roamlinks-plugin.
         },
         "mkdocs-video": {
             "hashes": [

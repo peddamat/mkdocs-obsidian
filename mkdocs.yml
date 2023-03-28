@@ -117,7 +117,8 @@ theme:
 plugins:
   - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
-  - git-revision-date         # Adds 'Last updated:' to pages
+  - git-revision-date:        # Adds 'Last updated:' to pages
+      repo_dir: "notes"
   - glightbox:                # Add glightbox image zoom plugin
       effect: none
       draggable: false
