@@ -16,6 +16,7 @@ jobs:
       - name: Checkout notes repo into ./notes
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           token:  ${{ secrets.PULL_NOTES }}
           repository: peddamat/notes
           path: notes
