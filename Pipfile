@@ -37,18 +37,12 @@ tqdm = "==4.64.0"
 watchdog = "==2.1.9"
 zipp = "==3.8.1"
 python-frontmatter = "==1.0.0"
-mkdocs-ezlinks-plugin = ">=0.1.14"
 mkdocs-blogging-plugin = ">=2.2.2"
 mkdocs-awesome-pages-plugin = ">=2.8.0"
 mkdocs-git-revision-date-plugin = "*"
 mkdocs-video = "*"
 mkdocs-glightbox = "*"
-
-[dev-packages]
+mkdocs-roamlinks-plugin = {git = "https://github.com/peddamat/mkdocs-roamlinks-plugin"}
 
 [requires]
 python_version = "3.8"
-
-[packages.mkdocs-roamlinks-plugin]
-git = "https://github.com/peddamat/mkdocs-roamlinks-plugin"
-ref = "master"
