@@ -1,4 +1,6 @@
-{% extends "base.html" %} {% block analytics %}
+{% extends "base.html" %}
+
+{% block analytics %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZQGZXT3GC"></script>
 <script>
@@ -8,4 +10,8 @@
 
   gtag('config', 'G-RZQGZXT3GC');
 </script>
+{% endblock %}
+
+{% block announce %}
+<b>Blog migration in progress:  apologies for broken links and broken articles.</b>
 {% endblock %}

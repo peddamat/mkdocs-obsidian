@@ -62,6 +62,7 @@ theme:
     - navigation.sections     # Expands sections in left-sidebar
     - navigation.tabs         # Sections in header
     - navigation.indexes      # Index.htmls for sections
+    - announce.dismiss        # Allow user to dismiss announcements
     # - toc.integrate           # Moves toc from right sidebar to left
     # - navigation.instant
 <<<<<<< temp
