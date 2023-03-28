@@ -458,7 +458,7 @@
         },
         "mkdocs-roamlinks-plugin": {
             "git": "https://github.com/peddamat/mkdocs-roamlinks-plugin",
-            "ref": "74aea824440d5a65a0d07400aa751f60dea77d2a"
+            "ref": "61fdae84a72231e31a2b367489cc5e334effd39f"
         },
         "mkdocs-video": {
             "hashes": [
