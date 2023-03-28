@@ -35,24 +35,11 @@ theme:
   include_search_page: true
   search_index_only: true
   features:
+    - announce.dismiss        # Allows dismissing announcement banner
     - header.autohide         # Hide header when scrolling down
     - search.share
     - search.highlight
     - search.suggest
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp2
-<<<<<<< temp2
-||||||| ancestor
-=======
-    - header.autohide
->>>>>>> Cleaned up homepage.
-||||||| ancestor
-    - header.autohide
-=======
->>>>>>> Fixed homepage.
     - content.code.copy
     - content.code.select
     - content.code.annotate
@@ -62,53 +49,10 @@ theme:
     - navigation.sections     # Expands sections in left-sidebar
     - navigation.tabs         # Sections in header
     - navigation.indexes      # Index.htmls for sections
-    - announce.dismiss        # Allow user to dismiss announcements
     # - toc.integrate           # Moves toc from right sidebar to left
     # - navigation.instant
-<<<<<<< temp
-    - toc.follow
-    # - toc.integrate
-||||||| ancestor
-=======
-    # Added below
-||||||| ancestor
-    # Added below
-=======
->>>>>>> Updating repository from testing environment.
-||||||| ancestor
-    # Added below
-=======
->>>>>>> Updating repository from testing environment.
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-    - navigation.tracking
-    - navigation.top
-    - navigation.sections
-    # - navigation.instant
-    - toc.follow
-    # - toc.integrate
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-=======
-    # Added below
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-    - navigation.tracking
-    - navigation.top
-    - navigation.sections
-    # - navigation.instant
-    - toc.follow
-    # - toc.integrate
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-    - toc.follow
-    # - toc.integrate
-=======
     # - toc.follow            # Doesn't seem to work
     # - navigation.path         # Breadcrumb above page title
->>>>>>> Fixed homepage.
   font:
     text: Noto Sans
     code: IMB Plex Mono
@@ -129,15 +73,6 @@ plugins:
         height: "40vw"
   - minify:
       minify_html: true
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp2
-<<<<<<< temp2
-  - roamlinks
-||||||| ancestor
-  - roamlinks
-=======
   - tags:
       tags_file: tags.md
       # Below are insiders-only settings
@@ -151,7 +86,6 @@ plugins:
       separator: '[\s\-\.]+'
       lang:
         - en
->>>>>>> Cleaned up homepage.
   - blogging:
       dirs: # The directories to be included
         - Guides
@@ -164,80 +98,6 @@ plugins:
           insert: bottom
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
-<<<<<<< temp
-      categories:
-        - name: reviews
-          dirs:
-            - reviews
-
-      # GLOBAL CONFIG: configs apply to all categories
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      features:
-        tags:
-          index_page: tags.md
-          insert: top
-||||||| ancestor
-  - roamlinks
-=======
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
-||||||| ancestor
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
-=======
-  - roamlinks
->>>>>>> Updating repository from testing environment.
-  - blogging:
-      dirs: # The directories to be included
-        - .
-      template: overrides/custom-blog.html
-
-      # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
-      categories:
-        - name: reviews
-          dirs:
-            - reviews
-
-      # GLOBAL CONFIG: configs apply to all categories
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      features:
-        tags:
-          index_page: tags.md
-          insert: top
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  - roamlinks
-=======
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
-||||||| ancestor
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
-=======
-  - roamlinks
->>>>>>> Updating repository from testing environment.
-  - blogging:
-      dirs: # The directories to be included
-        - .
-      template: overrides/custom-blog.html
-
-      # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
-      # categories:
-      #   - name: reviews
-      #     dirs:
-      #       - reviews
-||||||| ancestor
-      # categories:
-      #   - name: reviews
-      #     dirs:
-      #       - reviews
-=======
       categories:
         - name: guides
           template: overrides/custom-blog.html
@@ -252,61 +112,11 @@ plugins:
           sort:
             from: old
           dirs:
-<<<<<<< temp
-            - Lab Notes
->>>>>>> Enabled section indices.
-||||||| ancestor
-            - Lab Notes
-=======
             - Projects
->>>>>>> Site reorg.
 
       # GLOBAL CONFIG: configs apply to all categories
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-<<<<<<< temp
-      features:
-        tags:
-          index_page: tags.md
-          insert: top
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-      features:
-        tags:
-          index_page: tags.md
-          insert: top
-=======
-      # features:
-      #   tags:
-      #     index_page: tags.md
-      #     insert: top
->>>>>>> Cosmetic changes.
-||||||| ancestor
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      # features:
-      #   tags:
-      #     index_page: tags.md
-      #     insert: top
-=======
-      time_format: '%m/%d/%y %H:%M:%S'
-      meta_time_format: '%m/%d/%y %H:%M:%S'
->>>>>>> Cleaned up homepage.
-||||||| ancestor
-      time_format: '%m/%d/%y %H:%M:%S'
-      meta_time_format: '%m/%d/%y %H:%M:%S'
-=======
-      time_format: '%b-%d-%Y'
-||||||| ancestor
-      time_format: '%b-%d-%Y'
-=======
       time_format: '%b %-d, %Y'
->>>>>>> Blog layout tweaks.
       meta_time_format: '%m-%d-%Y'
->>>>>>> Updated date format.
 
 extra:
   social:
@@ -321,47 +131,14 @@ markdown_extensions:
   # Table of contents
   - toc:
       permalink: true
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp2
-  # Added below
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - footnotes
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - def_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-<<<<<<< temp
-||||||| ancestor
-=======
-  # Added below
-||||||| ancestor
-  # Added below
-=======
-||||||| ancestor
-=======
   # Collapsible admonitions
   - pymdownx.details
->>>>>>> Enabled collapsible admonitions plugin.
   # Source code boxes
   - pymdownx.superfences
   - pymdownx.tabbed:          # Tabs
       alternate_style: true
   # Syntax highlighting
   - pymdownx.inlinehilite
->>>>>>> Cleaned up homepage.
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -391,112 +168,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-<<<<<<< temp2
-  # - mdx_wikilink_plus
-  # - markdown.extensions.wikilinks
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  # - mdx_wikilink_plus
-  # - markdown.extensions.wikilinks
-=======
->>>>>>> Updating repository from testing environment.
-||||||| ancestor
-=======
-  # Added below
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - footnotes
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - def_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  # - mdx_wikilink_plus
-  # - markdown.extensions.wikilinks
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  # - mdx_wikilink_plus
-  # - markdown.extensions.wikilinks
-=======
->>>>>>> Updating repository from testing environment.
 
 extra_css:
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp2
-  - stylesheets/extra.css
-  - stylesheets/hide_nav.css
-
-hooks:
-  - hooks/flatten_filenames.py
-  - hooks/only_include_published.py
-||||||| ancestor
-  - stylesheets/extra.css
-=======
-  - stylesheets/extra.css
-<<<<<<< temp2
->>>>>>> Cleared out original docs folder & added my vault.
-||||||| ancestor
-=======
-  - stylesheets/hide_nav.css
-
-hooks:
-  - hooks/flatten_filenames.py
-<<<<<<< temp2
-  # - hooks/only_include_published.py
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  # - hooks/only_include_published.py
-=======
-  - hooks/only_include_published.py
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  - stylesheets/extra.css
-=======
-  - stylesheets/extra.css
-<<<<<<< temp
->>>>>>> Cleared out original docs folder & added my vault.
-||||||| ancestor
-=======
-  - stylesheets/hide_nav.css
-||||||| ancestor
-  - stylesheets/extra.css
-  - stylesheets/hide_nav.css
-=======
-  - .stylesheets/extra.css
-  - .stylesheets/hide_nav.css
->>>>>>> Updated stylesheets folder.
-||||||| ancestor
-  - .stylesheets/extra.css
-  - .stylesheets/hide_nav.css
-=======
-  - stylesheets/extra.css
-<<<<<<< temp
-  - stylesheets/hide_nav.css
->>>>>>> Update mkdocs.yml
-||||||| ancestor
-  - stylesheets/hide_nav.css
-=======
-  # - stylesheets/hide_nav.css
->>>>>>> Fixed homepage.
-||||||| ancestor
-  - stylesheets/extra.css
-  # - stylesheets/hide_nav.css
-=======
   - assets/stylesheets/extra.css
   # - assets/stylesheets/hide_nav.css
->>>>>>> Cleaned up repo.
 
 extra_javascript:
   # Required for MathJax support
@@ -506,29 +181,4 @@ extra_javascript:
 
 hooks:
   - hooks/flatten_filenames.py
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-<<<<<<< temp
-  # - hooks/only_include_published.py
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  # - hooks/only_include_published.py
-=======
   - hooks/only_include_published.py
->>>>>>> Copied over changes from testing environment.
-||||||| ancestor
-  - hooks/only_include_published.py
-=======
-  - hooks/only_include_published.py
->>>>>>> Update mkdocs.yml
-||||||| ancestor
-  - hooks/only_include_published.py
-=======
-  - hooks/only_include_published.py
->>>>>>> Cleaned up homepage.
-||||||| ancestor
-  - hooks/only_include_published.py
-=======
-  - hooks/only_include_published.py
->>>>>>> Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update and rename gh-pages.yml.off to gh-pages.yml Update gh-pages.yml Update requirements.txt Update gh-pages.yml Update mkdocs.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update gh-pages.yml Update mkdocs.yml Switching to pipenv.
