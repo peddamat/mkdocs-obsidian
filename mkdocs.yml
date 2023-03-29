@@ -13,13 +13,6 @@ theme:
   name: material
   custom_dir: overrides
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: white
-      primary: white
-      accent: white
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
@@ -27,6 +20,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: white
+      primary: white
+      accent: white
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
   shortcuts:
     next: 78 # n
     previous: 80 # p
