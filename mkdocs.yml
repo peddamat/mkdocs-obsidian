@@ -92,6 +92,7 @@ plugins:
         - Guides
         - Notes
         - Projects
+        - Musings
       template: overrides/custom-blog.html
       features:
         tags:
@@ -104,6 +105,10 @@ plugins:
           template: overrides/custom-blog.html
           dirs:
             - Guides
+        - name: musings
+          template: overrides/custom-blog.html
+          dirs:
+            - Musings
         - name: notes
           template: overrides/custom-blog.html
           dirs:
