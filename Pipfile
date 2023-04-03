@@ -42,7 +42,7 @@ mkdocs-awesome-pages-plugin = ">=2.8.0"
 mkdocs-git-revision-date-plugin = {git = "https://github.com/peddamat/mkdocs-git-revision-date-plugin"}
 mkdocs-video = "*"
 mkdocs-glightbox = "*"
-mkdocs-roamlinks-plugin = {git = "https://github.com/peddamat/mkdocs-roamlinks-plugin"}
+mkdocs-roamlinks-plugin = "*"
 
 [requires]
 python_version = "3.8"
