@@ -94,10 +94,10 @@ plugins:
         - Projects
         - Musings
       template: overrides/custom-blog.html
-      features:
-        tags:
-          index_page: tags.md
-          insert: bottom
+      # features:
+      #  tags:
+      #    index_page: tags.md
+      #    insert: bottom
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
       categories:
